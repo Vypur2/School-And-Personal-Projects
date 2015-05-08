@@ -1,0 +1,19 @@
+package com.example.biastester;
+
+public class Slide {
+	String Race;
+	String filename;
+	String Gender;
+	Boolean isPhoto;
+	Slide prev;
+	float tapTime;
+
+	public Slide(String fname, String r,String g,Boolean photo)
+	{
+		this.Race = r;
+		this.filename = fname;
+		this.Gender = g;
+		this.isPhoto = photo;
+	}
+	
+}
