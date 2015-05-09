@@ -1,0 +1,11 @@
+m
+mBiasTester
+mBiasTester/bin
+mBiasTester/gen/android/support/v7/appcompat
+mBiasTester/gen/android/support/v7/gridlayout
+mBiasTester/gen/com/example/biastester
+mBiasTester/res/layout
+mBiasTester/res/values
+mBiasTester/res/values-v14
+mBiasTester/res/values-w820dp
+mBiasTester/src/com/example/biastester
