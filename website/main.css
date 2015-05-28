@@ -1,0 +1,52 @@
+.grey{
+        background-color: #FAFAFA;
+        padding-top: 20px;
+    }
+    .centered {
+        text-align: center;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .centered > p {
+      overflow: none;
+      word-wrap:break-word;
+    }
+
+    .
+
+    .icon{
+      padding:0px 0px 12px 0px;
+    }
+
+    .right {
+      text-align: right;
+    }
+
+    .noWhitespace{
+      margin:0;
+      padding:0;
+      border:0;
+    }
+
+    .White{
+        margin:30;
+        padding:30;
+        border:30;
+    }
+
+    a:link{
+      color: #000;
+    }
+
+    a:visited{
+      color: #000;
+    }
+
+    a:hover {
+      color: #373C45;
+    }
+    a:active{
+      color: #000;
+    }
