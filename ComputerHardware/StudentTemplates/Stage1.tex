@@ -1,0 +1,115 @@
+\textnormal{
+%\begin{itemize} 
+%\item{}
+%\end{itemize}
+\begin{itemize} 
+\item{The general system description: }
+\textnormal{
+This is a database of computer hardware parts and detailed information about those parts. The goal of this is to simplify part comparisons.  Parts have multiple filterable categories to allow easy and quick access when comparing a large number of parts.  By acting as a selection guide this database could be used to assist people to build there own computers.  There are four different types of users in this database manufactures, sellers, account users and guest users.
+}
+\item{The 4 types of users (grouped by their data access/update rights): }
+\begin{itemize} 
+\item{The user's access rights: }
+The four types of users for our database include the manufacturer, the seller, account customers and guest users. The manufacturers main purpose is to update the database, detailing new product information as well as release dates on their respective computer hardware. Out of all users of the database, manufacturers are allowed the most data access and update rights. Specifically, manufactures are permitted to add new data to the database as well as remove previously added information respectively. Different manufactures cannot alter computer hardware information that is not their own. Additionally, manufacturers are allowed read access to account-customer reviews. \\ The sellers will compose of a variety of different online retailers for computer hardware parts. The seller's main contribution to the database is to list product prices as well as provide computer hardware specifications that are provided by the manufacturer. The seller will be allowed data access to all manufacture products. Sellers will also be allowed to group hardware parts into categories based on its purpose and functionality. As a way of receiving feedback from customers, sellers will also be granted the ability to create a customer reviews section on the respective product page. As compared to manufactures, sellers are limited when it comes to update rights. No seller is permitted to alter computer hardware product information unless authorized by the manufacturer themselves. Additionally, sellers are not allowed to modify and/or delete account-customer reviews unless the content of the review pertains no correspondence to the product whatsoever. \\Account users can access the prices of a specific grouping of hardware pieces, they can also get seller information based on location and price.  Account users also gain read access to the manufacturer information and the specifications of the products. They also gain read and write access to reviews of those products with the ability to rate and write reviews. \\ Guest users on the other hand maintain most of the same access rights as account users, however they cannot write reviews on hardware products.  Guest users also lack the ability to choose which seller they want to purchase from, while account users have this ability.  Both types of users lack the ability to add and remove products from the database, as well as manipulate any information on the products other than reviews. 
+\item{The real world scenarios: }
+	\begin{itemize} 
+	\item{Scenario1 description: }
+	A manufacture has come out with a new line of solid-state drives and wants to add one to the database, along with information about the part.
+	\item{System Data Input for Scenario1: }
+	\\Add a new SDD along with product information \\INSERT INTO HardwareDB(PartName, type, Capacity, Interface, Form Factor, SeqReadm SeqWrite, RandRead, RandWirite, weight)\\VALUES('Crucial MX100 CT256MX100SSD', 'SSD', 256, 'SATA III', 2.5, 550, 330, 85000, 70000, 0.25)
+	\item{Input Data Types for Scenario1: }
+	\\Char[], char[], int, char[], float, int, int, int, int, float
+	\item{System Data Output for Scenario1: }
+	\\A message that shows if the insertion was successful or not
+	\item{Output Data Types for Scenario1: }
+	\\char[]
+	\end{itemize}
+	\begin{itemize} 
+	\item{Scenario2 description: }
+	A manufacture has realized that some information about their product is incorrect and needs to correct to it. A monitor QX2711 has a DVI-I connection instead of DVI-D connection.
+	\item{System Data Input for Scenario2: }
+	\\ Change the interface attribute of the monitor QX2711 to show there is one DVI-I connection\\UPDATE HardwareDB\\ SET Interface=1xDVI-I \\WHERE name='QX2711';
+	\item{Input Data Types for Scenario2: }
+\\char[], char[]
+	\item{System Data Output for Scenario2: }
+\\A message that shows if the update successful or not
+	\item{Output Data Types for Scenario2: }
+\\char[]
+	\end{itemize}
+	\begin{itemize} 
+	\item{Scenario3 description: }
+	There are multiple real world scenarios a seller user type can act out within the database environment. For example: A seller user type can submit a request to update price information on a computer hardware product in their inventory. The seller will then receive approval or disapproval from the manufacturer, deciding whether or not the requested price alteration can be accepted. Product standards are constantly being updated and improved as new merchandise is released each year. With such adjustments, constant alteration in price is required to keep customer satisfaction at a high rate. Sellers cannot afford the risk of keeping product prices static. A lack of constant updating of price information can lead retailers loosing sales and future customers. Additionally, negative customer reviews can erupt from such an occurrence that can most definitely impact both the seller and manufacturer for the worst. Such a scenario is very typical amongst these two user types and should be accommodated for in the computer hardware database. Overall, the interaction between seller and manufacture is necessary when regarding price modifications that ultimately can lead to a beneficial relationship between the two when sharing a database system.
+	\item{System Data Input for Scenario3: }
+	Sellers will input the updated price of the hardware product into the database. Seller users must interact with manufacturers and the database system constantly with price alterations in mind in order to keep up with the hardware standards of the time. 
+	\item{Input Data Types for Scenario3: }
+	The input data type for this scenario is a float data type since sellers are updating money values in the database system. 
+	\item{System Data Output for Scenario3: }
+	After the seller has inputted the requested price alteration, the manufacturer will then reply to that request as output to the seller. This consists of either an approval or disapproval answer by the manufacturer. 
+	\item{Output Data Types for Scenario3: }
+	The output data type for this scenario is a char data type considering the fact that the seller will receive output as either an approval or disapproval. 
+	\end{itemize}
+	\begin{itemize} 
+	\item{Scenario4 description: }
+	Another real world scenario a seller user type can act out within the database environment involves the interaction between seller and account-only customers. As compared to guest users, account customers are allowed increased access to seller and product information. For example: A seller user type can add new products to their inventory. More inventory has a probable chance to lead to more potential customers. If an account customer decides to buy a product a seller is retailing, the seller will receive the amounted price on the specific item from the customer. This retailer-customer relationship and interaction is necessary in order to keep business operations flowing at a normal rate.  If the connection between seller and account-customer is not made through the description of well defined products, the seller user type will find it very difficult to keep its business in check and ultimately loose ties with customers and manufactures as a whole. By constantly adding and updating information by interacting with the computer hardware database, sellers can easily access their inventory while account-customers can simply read, redeem and rate said inventory, leading to future healthy connections between seller and account-customers.
+	\item{System Data Input for Scenario4: }
+	Sellers input product descriptions and details as well as shipping costs into the database system under an item description attribute. Overall, each seller will provide product descriptions, prices and shipping costs as a way to gain potential revenue from customers and enhance sales. 
+	\item{Input Data Types for Scenario4: }
+	The input data type for this scenario is a char data type. This is due to the fact that the seller will input product descriptions for each item in the computer hardware database. 
+	\item{System Data Output for Scenario4: }
+	After item descriptions and details have been inputted into the database, sellers will hope receive output in the form of sales from customers. 
+	\item{Output Data Types for Scenario4: }
+	The output data type for this scenario is a float data type. Retailers listed in the database system will be sent output in the form of currency, making the float data type the definitive output type. 
+	\end{itemize}
+	\begin{itemize} 
+	\item{Scenario5 description: }
+	An account user purchased an item from the database and now wishes to write a review  of the product in the database. 
+	\item{System Data Input for Scenario5: }
+	\\number of stars, short reason
+	\item{Input Data Types for Scenario5: }
+	\\int, char[]
+	\item{System Data Output for Scenario5: }
+	\\confirmation message
+	\item{Output Data Types for Scenario5: }
+	\\char[]
+	\end{itemize}
+	\begin{itemize} 
+	\item{Scenario6 description: }
+	An account user queries the database for a GPU, and receives a list of parts. From those parts he can query based on price, seller, manufacturer, ratings or name.
+after selecting the product, if there is an option for multiple sellers the user gains access to select particular sellers for the product.
+	\item{System Data Input for Scenario6: }
+	\\video card, price \textless  300 dollars 
+	\item{Input Data Types for Scenario6: }
+	\\char[], int
+	\item{System Data Output for Scenario6: }
+	\\direct link to product on web
+	\item{Output Data Types for Scenario6: }
+	\\char[]
+	\end{itemize}
+	\begin{itemize} 
+	\item{Scenario7 description: }
+	A guest user wants to purchase a product, so he uses the database to find the best fit for his restrictions. Guest users, however, can not choose which seller they
+want if their are multiple options. They also have less options in terms of filtering results, only by price, review rating and name.
+	\item{System Data Input for Scenario7: }
+	\\name of product, price, rating
+	\item{Input Data Types for Scenario7: }
+	\\char[], float, int
+	\item{System Data Output for Scenario7: }
+	\\Direct link to product on the web
+	\item{Output Data Types for Scenario7: }
+	\\char[]
+	\end{itemize}
+	\begin{itemize} 
+	\item{Scenario8 description: }
+	A guest user wants to read a review about a specific part. They will query the database with the part name and receive a table of reviews.
+	\item{System Data Input for Scenario8: }
+	\\name of product
+	\item{Input Data Types for Scenario8: }
+	\\char[]
+	\item{System Data Output for Scenario8: }
+	\\list of reviews
+	\item{Output Data Types for Scenario8: }
+	\\char[]
+	\end{itemize}
+	\end{itemize}
+\end{itemize}
+}

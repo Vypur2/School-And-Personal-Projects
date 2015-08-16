@@ -1,0 +1,127 @@
+\documentclass[10pt,conference]{IEEEtran}
+
+\ifCLASSINFOpdf
+	\usepackage[pdftex]{graphicx}
+	\graphicspath{{./figs/}}
+	\DeclareGraphicsExtensions{.pdf,.jpeg,.png}
+\else
+	\usepackage[dvips]{graphicx}
+	\graphicspath{{./figs/}}
+	\DeclareGraphicsExtensions{.eps}
+\fi
+
+\usepackage[cmex10]{amsmath}
+\usepackage[tight,footnotesize]{subfigure}
+
+\usepackage{xcolor}
+\usepackage[lined,ruled]{algorithm2e}
+
+\usepackage[latin1]{inputenc}
+\usepackage{tikz}
+\usetikzlibrary{shapes}
+\usetikzlibrary{arrows}
+
+\usepackage[]{algorithm2e}
+
+\newtheorem{property}{Property}
+\newtheorem{proposition}{Proposition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{conjecture}{Conjecture}
+\newtheorem{question}{Question}
+\newtheorem{definition}{Definition}
+\newtheorem{corollary}{Corollary}
+
+\makeatletter
+\pgfdeclareshape{datastore}{
+  \inheritsavedanchors[from=rectangle]
+  \inheritanchorborder[from=rectangle]
+  \inheritanchor[from=rectangle]{center}
+  \inheritanchor[from=rectangle]{base}
+  \inheritanchor[from=rectangle]{north}
+  \inheritanchor[from=rectangle]{north east}
+  \inheritanchor[from=rectangle]{east}
+  \inheritanchor[from=rectangle]{south east}
+  \inheritanchor[from=rectangle]{south}
+  \inheritanchor[from=rectangle]{south west}
+  \inheritanchor[from=rectangle]{west}
+  \inheritanchor[from=rectangle]{north west}
+  \backgroundpath{
+    %  store lower right in xa/ya and upper right in xb/yb
+    \southwest \pgf@xa=\pgf@x \pgf@ya=\pgf@y
+    \northeast \pgf@xb=\pgf@x \pgf@yb=\pgf@y
+    \pgfpathmoveto{\pgfpoint{\pgf@xa}{\pgf@ya}}
+    \pgfpathlineto{\pgfpoint{\pgf@xb}{\pgf@ya}}
+    \pgfpathmoveto{\pgfpoint{\pgf@xa}{\pgf@yb}}
+    \pgfpathlineto{\pgfpoint{\pgf@xb}{\pgf@yb}}
+ }
+}
+\makeatother
+
+\newcommand{\riham}[1]{{\color{red}{#1}}}
+\newcommand{\james}[1]{{\color{blue}{#1}}}
+
+
+\begin{document}
+
+\title{CS-336 Project 2015: Hardware Parts}
+\author{
+\IEEEauthorblockN{Matthew Eder}
+\IEEEauthorblockA{Rutgers University\\ 
+Piscataway, NJ, USA\\
+Email: mre56@scarletmail.rutgers.edu}
+\and
+\IEEEauthorblockN{Michael Azzimaro}
+\IEEEauthorblockA{Rutgers University\\
+Piscataway, NJ, USA\\
+Email: michazzi@scarletmail.rutgers.edu}
+\and
+\IEEEauthorblockN{Michael Calabrese}
+\IEEEauthorblockA{Rutgers University\\
+Piscataway, NJ, USA\\
+Email: mrcalabrese2@gmail.com}
+}
+
+
+\maketitle
+
+
+\begin{abstract}
+\textnormal{
+In this project, we intend to build a computer hardware Data Base Management System from the ground up that composes of multiple stages. The database system will be used for the sole purpose of immersing its users with computer hardware data. The overall project begins with stage one, which is intended for analyzing how specific users of the computer hardware database interact with the database environment.  Stage two will bring stage one to life through a use of a pictorial design of the computer hardware database system. Here, an ER model will be presented as a means of describing relations between entities of the computer hardware database system. Also stated in this report is stage three, describing how we intend to lay out our database design through the use of SQL tables. Finally, stage four will describe the User Interface that will be based off of the computer hardware database system design. Overall, this project seeks to build a computer hardware database system for multiple user types. We intend to design and implement a computer hardware database system that encourages easy accessibility and maneuverability for its users. 
+}
+\end{abstract}
+%\onecolumn \maketitle \normalsize \vfill
+
+\IEEEpeerreviewmaketitle
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\section{Project Description}\label{sec:1. Project Description}
+%\input{introduction.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\textnormal{
+%Insert your project here.You can refer to the Abstract of the 336ProjectDescriptionSummer2015 LaTeX file as an example.
+%The project has four stages, as follows.
+%}
+\subsection{Stage1 - The Requirement Gathering Stage. }\label{sec:1.	Requirement Gathering Stage. }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{Stage1.tex}
+
+
+\subsection{Stage2 - The Design Stage. }\label{sec: 2:The Design Stage.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{Stage2.tex}
+
+\subsection{Stage3 - The Implementation Stage. }\label{sec: 3 The Implementation Stage.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{Stage3.tex}
+
+\subsection{Stage4 -	User Interface. }\label{sec: 4.	User Interface.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{Stage4.tex}
+
+\bibliographystyle{IEEEtran}
+%\bibliography{IEEEabrv,bib_queyroi_abello2013}
+%\bibliography{bib_queyroi_abello2013}
+
+\end{document}
+
+

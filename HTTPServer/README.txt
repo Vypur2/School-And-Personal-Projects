@@ -17,3 +17,10 @@ would run the requested CGI script and output the programs's output to the brows
 the final stage, HTTP1ServerASP.java, was the final iteration, services all requests from previous stages and
 responds to "store.cgi" and "service.cgi", which dynamically generate web-pages using python and sending their output
 through the web browser. the output of the cgi scripts is HTML formatted.
+
+Running:
+Must be run on a UNIX system for the python cgi scripts to function. windows doesn't like it. 
+Unzip the zip file and compile and run the .java file. open a browser via localhost.
+
+to test normal server functions, simply type the url of what you are looking for.
+to run store or service.ci request http://localhost:3456/cgi-bin/store.cgi in your browser. 

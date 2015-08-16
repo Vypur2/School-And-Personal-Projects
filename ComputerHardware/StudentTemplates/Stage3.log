@@ -1,0 +1,751 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  10 AUG 2015 14:03
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Stage3.tex
+(./Stage3.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 }
+      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 16--16
+[] 
+ []
+
+! Undefined control sequence.
+<argument> ...ing data entries } \includegraphics 
+                                                  [width=\columnwidth ]{SQLT...
+l.16 }
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.16 }
+      
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.16 }
+      
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+<argument> ... ]{SQLTables1.png} \includegraphics 
+                                                  [width=\columnwidth ]{SQLT...
+l.16 }
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.16 }
+      
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.16 }
+      
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+<argument> ... ]{SQLTables2.png} \includegraphics 
+                                                  [width=\columnwidth ]{SQLT...
+l.16 }
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.16 }
+      
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.16 }
+      
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+<argument> ... ]{SQLTables3.png} \includegraphics 
+                                                  [width=\columnwidth ]{SQLT...
+l.16 }
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.16 }
+      
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.16 }
+      
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+<argument> ... ]{SQLTables4.png} \includegraphics 
+                                                  [width=\columnwidth ]{SQLT...
+l.16 }
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.16 }
+      
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.16 }
+      
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Overfull \hbox (17.22224pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 The
+ []
+
+
+Overfull \hbox (17.80559pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 nor-
+ []
+
+
+Overfull \hbox (19.44449pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 mal-
+ []
+
+
+Overfull \hbox (15.55557pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 iza-
+ []
+
+
+Overfull \hbox (17.22227pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 tion
+ []
+
+
+Overfull \hbox (17.83336pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 step
+ []
+
+
+Overfull \hbox (11.97226pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 for
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (19.58339pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 SQL
+ []
+
+
+Overfull \hbox (12.22224pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 ta-
+ []
+
+
+Overfull \hbox (12.7778pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 ble
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 and
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (13.05557pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 ex-
+ []
+
+
+Overfull \hbox (16.6667pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 pla-
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 na-
+ []
+
+
+Overfull \hbox (77.61131pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 tions/justification
+ []
+
+
+Overfull \hbox (8.05559pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 of
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (17.80559pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 nor-
+ []
+
+
+Overfull \hbox (19.44449pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 mal-
+ []
+
+
+Overfull \hbox (15.55557pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 iza-
+ []
+
+
+Overfull \hbox (17.22227pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 tion
+ []
+
+
+Overfull \hbox (17.83336pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 step
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 and
+ []
+
+
+Overfull \hbox (17.22224pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 The
+ []
+
+
+Overfull \hbox (17.80559pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 nor-
+ []
+
+
+Overfull \hbox (19.44449pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 mal-
+ []
+
+
+Overfull \hbox (15.55557pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 iza-
+ []
+
+
+Overfull \hbox (17.22227pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 tion
+ []
+
+
+Overfull \hbox (21.7778pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 steps
+ []
+
+
+Overfull \hbox (11.97226pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 for
+ []
+
+
+Overfull \hbox (19.16669pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 each
+ []
+
+
+Overfull \hbox (12.22224pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 ta-
+ []
+
+
+Overfull \hbox (15.55559pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 ble,
+ []
+
+
+Overfull \hbox (23.3334pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 along
+ []
+
+
+Overfull \hbox (19.44449pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 with
+ []
+
+
+Overfull \hbox (13.05557pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 ex-
+ []
+
+
+Overfull \hbox (16.6667pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 pla-
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 na-
+ []
+
+
+Overfull \hbox (81.55576pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 tions/justifications
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 and
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (17.80559pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 nor-
+ []
+
+
+Overfull \hbox (19.44449pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 mal-
+ []
+
+
+Overfull \hbox (15.55557pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 iza-
+ []
+
+
+Overfull \hbox (17.22227pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 tion
+ []
+
+
+Overfull \hbox (21.7778pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 steps
+ []
+
+
+Overfull \hbox (11.97226pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 for
+ []
+
+
+Overfull \hbox (19.16669pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 each
+ []
+
+
+Overfull \hbox (12.22224pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 ta-
+ []
+
+
+Overfull \hbox (15.55559pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 ble,
+ []
+
+
+Overfull \hbox (23.3334pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 along
+ []
+
+
+Overfull \hbox (19.44449pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 with
+ []
+
+
+Overfull \hbox (13.05557pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 ex-
+ []
+
+
+Overfull \hbox (16.6667pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 pla-
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 na-
+ []
+
+
+Overfull \hbox (81.55576pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 tions/justifications
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (19.58339pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 SQL
+ []
+
+
+Overfull \hbox (14.72223pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 Ta-
+ []
+
+
+Overfull \hbox (15.55559pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 ble,
+ []
+
+
+Overfull \hbox (11.66669pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 in-
+ []
+
+
+Overfull \hbox (21.6667pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 clud-
+ []
+
+
+Overfull \hbox (13.33337pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 ing
+ []
+
+
+Overfull \hbox (19.4445pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 data
+ []
+
+
+Overfull \hbox (13.33334pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 en-
+ []
+
+
+Overfull \hbox (18.97224pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 tries
+ []
+
+
+Overfull \hbox (109.08359pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 [width=]SQLTables1.png
+ []
+
+
+Overfull \hbox (109.08359pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 [width=]SQLTables2.png
+ []
+
+
+Overfull \hbox (109.08359pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 [width=]SQLTables3.png
+ []
+
+
+Overfull \hbox (109.08359pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 [width=]SQLTables4.png
+ []
+
+
+Overfull \hbox (109.08359pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 [width=]SQLTables5.png 
+ []
+
+! Undefined control sequence.
+<argument> ...les5.png} \item {} \includegraphics 
+                                                  [width=\columnwidth ]{SQLQ...
+l.16 }
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.16 }
+      
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.16 }
+      
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+<argument> ...]{SQLQueries1.png} \includegraphics 
+                                                  [width=\columnwidth ]{SQLQ...
+l.16 }
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.16 }
+      
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.16 }
+      
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+<argument> ...]{SQLQueries2.png} \includegraphics 
+                                                  [width=\columnwidth ]{SQLQ...
+l.16 }
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.16 }
+      
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.16 }
+      
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+<argument> ...]{SQLQueries3.png} \includegraphics 
+                                                  [width=\columnwidth ]{SQLQ...
+l.16 }
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.16 }
+      
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.16 }
+      
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+<argument> ...]{SQLQueries4.png} \includegraphics 
+                                                  [width=\columnwidth ]{SQLQ...
+l.16 }
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.16 }
+      
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.16 }
+      
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Overfull \hbox (114.66695pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 [width=]SQLQueries1.png
+ []
+
+
+Overfull \hbox (114.66695pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 [width=]SQLQueries2.png
+ []
+
+
+Overfull \hbox (114.66695pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 [width=]SQLQueries3.png
+ []
+
+
+Overfull \hbox (114.66695pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 [width=]SQLQueries4.png
+ []
+
+
+Overfull \hbox (114.66695pt too wide) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 [width=]SQLQueries5.png 
+ []
+
+)
+! Emergency stop.
+<*> Stage3.tex
+              
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 9 strings out of 493089
+ 158 string characters out of 6134842
+ 55199 words of memory out of 5000000
+ 3594 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 16i,1n,15p,327b,121s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
